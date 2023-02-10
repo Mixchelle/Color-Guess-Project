@@ -10,7 +10,7 @@ const result = (event) => {
   const evento = event.target;
   if (rgb.innerText === evento.style.backgroundColor) {
     resposta.innerHTML = 'Acertou!';
-    placar.innerText = `Seu placar é: ${x += 3}`;
+    placar.innerText = `${x += 3}`;
     return x + 3;
   }
   resposta.innerHTML = 'Errou! Tente novamente!';
