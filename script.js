@@ -46,4 +46,6 @@ function colorSelect() {
 }
 colorSelect();
 
-button.addEventListener('click', () => { if (bolls[0].style.backgroundColor) { boleta(); } });
+button.addEventListener('click', () => {
+  if (bolls[0].style.backgroundColor) { boleta(); }
+});
