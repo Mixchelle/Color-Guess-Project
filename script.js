@@ -1,7 +1,7 @@
 const rgb = document.getElementById('rgb-color');
 const button = document.getElementById('reset-game');
 const bolls = document.getElementsByClassName('ball');
-window.answer.innerText = 'Escolha uma cor';
+window.answer.innerText = 'Escolha a cor correta';
 const placar = window.score;
 let x = 0;
 
@@ -35,7 +35,7 @@ function boleta() {
     bolls[i].addEventListener('click', result);
   }
   corAdivinhe();
-  window.answer.innerText = 'Escolha uma cor';
+  window.answer.innerText = 'Escolha a cor correta:';
 }
 
 function colorSelect() {

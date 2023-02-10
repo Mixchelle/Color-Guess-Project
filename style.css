@@ -1,6 +1,6 @@
 /* theme: mountain fuji */
 body {
-  background-color: black;
+  background-color: rgb(31, 29, 29);
   color: #cacaca;
   font-family: Fira Sans, sans-serif;
   margin: auto;
@@ -17,7 +17,7 @@ header {
 }
 
 #texts {
-  background-color: #020120;
+  background-color: rgb(31, 29, 29);
   border-radius: 8px;
   color: #d2d3d8;
   font-size: 24px;
@@ -26,9 +26,15 @@ header {
 
 }
 
+img{
+  width: 80%;
+  display: inline;
+  text-align: center;
+}
 .balls {
-  background-color: #020120;
+  background-color: rgb(31, 29, 29);
   border-radius: 8px;
+  border: #de4b06 solid 3px;
   display: flex;
   justify-content: center;
   margin-bottom: 8px;
@@ -37,6 +43,7 @@ header {
 
 .ball {
   border-radius: 100%;
+  border: solid white 4px;
   height: 64px;
   margin: auto;
   width: 64px;
