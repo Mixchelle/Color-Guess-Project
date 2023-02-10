@@ -1,6 +1,6 @@
 /* theme: mountain fuji */
 body {
-  background-image: url("./images.jpeg");
+  background-image: url('./images.jpeg');
   color: #cacaca;
   font-family: Fira Sans, sans-serif;
   margin: auto;
