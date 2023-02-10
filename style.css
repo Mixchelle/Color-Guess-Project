@@ -17,7 +17,7 @@ header {
 }
 
 #texts {
-  background-color:  #020120;
+  background-color: #020120;
   border-radius: 8px;
   color: #d2d3d8;
   font-size: 24px;
@@ -27,7 +27,7 @@ header {
 }
 
 .balls {
-  background-color:  #020120;
+  background-color: #020120;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -57,9 +57,9 @@ button {
   background-color: #020120;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
-  color:#cacaca;
+  color: #cacaca;
   float: right;
-  font-size: 16pxs;
+  font-size: 16px;
   padding: 12px;
   transition: ease-in-out 0.3s;
 }
