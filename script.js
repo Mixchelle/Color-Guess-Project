@@ -26,7 +26,8 @@ const cores = () => {
 
 function corAdivinhe() {
   const aleatorio = bolls[Math.floor(Math.random() * 6)];
-  rgb.style.background = aleatorio.style.backgroundColor;
+  rgb.innerText = `${aleatorio.style.backgroundColor}`;
+  rgb.style.background = rgb.innerText;
 }
 
 function boleta() {

@@ -86,8 +86,8 @@ button:active {
   padding: 12px;
 }
 
-#rgb-color{
-  border-radius: 100%;
+#rgb{
+  border-radius: 60%;
   border: solid white 4px;
   height: 64px;
   margin: auto;
