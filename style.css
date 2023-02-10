@@ -29,6 +29,7 @@ header {
 img{
   width: 80%;
   display: inline;
+  margin: auto;
   text-align: center;
 }
 .balls {
