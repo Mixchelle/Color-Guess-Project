@@ -86,12 +86,11 @@ button:active {
   padding: 12px;
 }
 
-#rgb{
-  border-radius: 60%;
+#rgb-color{
+  border-radius: 10%;
   border: solid white 4px;
-  height: 64px;
   margin: auto;
-  width: 64px;
+  width: 200px;
 }
 
 #laranja{
