@@ -5,7 +5,7 @@ window.answer.innerText = 'Escolha a cor correta';
 const placar = window.score;
 let x = 0;
 
-function result(event) {
+const result = (event) => {
   const resposta = window.answer;
   const evento = event.target;
   if (rgb.innerText === evento.style.backgroundColor) {
@@ -14,15 +14,15 @@ function result(event) {
     return x + 3;
   }
   resposta.innerHTML = 'Errou! Tente novamente!';
-}
+};
 
-function cores() {
+const cores = () => {
   const a = Math.floor(Math.random() * 256);
   const b = Math.floor(Math.random() * 256);
   const c = Math.floor(Math.random() * 256);
   const cor = `rgb(${a}, ${b}, ${c})`;
   return cor;
-}
+};
 
 function corAdivinhe() {
   const aleatorio = bolls[Math.floor(Math.random() * 6)];
@@ -37,6 +37,9 @@ function boleta() {
   corAdivinhe();
   window.answer.innerText = 'Escolha a cor correta:';
 }
+
+const rgbStyle = () => rgb.style.backgroundColor === rgb.innerText;
+rgbStyle();
 
 function colorSelect() {
   if (bolls[0].style.backgroundColor) {

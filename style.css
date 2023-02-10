@@ -1,6 +1,6 @@
 /* theme: mountain fuji */
 body {
-  background-color: rgb(31, 29, 29);
+  background-color: rgb(1, 4, 33);
   color: #cacaca;
   font-family: Fira Sans, sans-serif;
   margin: auto;
@@ -9,15 +9,16 @@ body {
 }
 
 header {
+  text-align: center;
   background-color: #de4b06;
   border-radius: 0 0 8px 8px;
+  font-size: large;
   margin: 0;
   padding: 12px;
   width: auto;
 }
 
 #texts {
-  background-color: rgb(31, 29, 29);
   border-radius: 8px;
   color: #d2d3d8;
   font-size: 24px;
@@ -26,18 +27,14 @@ header {
 }
 
 img{
-  width: 80%;
-  display: inline;
-  text-align: center;
+
 }
 .balls {
-  background-color: rgb(31, 29, 29);
+  background-color: #de4b06;
   border-radius: 8px;
-  border: #de4b06 solid 3px;
+  text-align: center;
   display: flex;
-  justify-content: baseline;
-  flex-basis: 100%
-  margin-bottom: 8px;
+  justify-items: start;
   padding: 12px;
   text-align: center;
 }
@@ -87,4 +84,19 @@ button:active {
   color: #f4ecec;
   float: left;
   padding: 12px;
+}
+
+#laranja{
+float: left;
+  width: 100px;
+  margin: auto;
+}
+
+#power{
+  width: 50%;
+  border-radius: 10%;
+  display: inline;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
 }
