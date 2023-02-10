@@ -23,7 +23,6 @@ header {
   font-size: 24px;
   margin: 12px auto;
   padding: 6px;
-
 }
 
 img{
@@ -36,9 +35,11 @@ img{
   border-radius: 8px;
   border: #de4b06 solid 3px;
   display: flex;
-  justify-content: center;
+  justify-content: baseline;
+  flex-basis: 100%
   margin-bottom: 8px;
   padding: 12px;
+  text-align: center;
 }
 
 .ball {
