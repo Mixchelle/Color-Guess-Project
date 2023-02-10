@@ -1,4 +1,9 @@
 {
+  "homepage": "https://username.github.io/app-toot-name",
+    "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  },
   "devDependencies": {
     "cypress": "4.0.2",
     "cypress-multi-reporters": "1.2.4",
@@ -18,11 +23,5 @@
   "dependencies": {
     "eslint-config-trybe-fundamentals": "1.1.0",
     "react": "^16.14.0"
-  },
-  "scripts": {
-    "test": "cypress run",
-    "cypress:open": "cypress open",
-    "lint": "eslint --no-inline-config --ext .js,.jsx --no-error-on-unmatched-pattern -c .eslintrc.json .",
-    "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
   }
 }
