@@ -1,0 +1,82 @@
+/* theme: mountain fuji */
+body {
+  font-family: Fira Sans, sans-serif;
+  background-image: url("./images.jpeg")  ;
+  color: #cacaca;
+  max-width: 768px;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  background-color: #de4b06;
+  width: auto;
+  border-radius: 0 0 8px 8px;
+  margin: 0;
+  padding: 12px;
+}
+
+#texts {
+  background-color:  #020120;
+  border-radius: 8px;
+  color: #d2d3d8;
+  padding: 6px;
+  font-size: 24px;
+  margin: 12px auto;
+
+}
+
+.balls {
+  background-color:  #020120;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.ball {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+footer {
+  background-color: #de4b06;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 20px;
+}
+
+button {
+  float: right;
+  padding: 12px;
+  background-color: #020120;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: ease-in-out 0.3s;
+  color:#cacaca
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:active {
+  filter: brightness(75%);
+}
+
+#score-full {
+  float: left;
+  background-color: #020120;
+  color: #f4ecec;
+  border-radius: 8px;
+  border: 1px solid #9ec49f;
+  padding: 12px;
+}
